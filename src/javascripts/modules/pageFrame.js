@@ -7,7 +7,7 @@ const pageFrame = () => {
       <h2>Track the fishing activites of your favorite bears.</h2>
     </div>
   </heading>
-  <div class="bear-input d-flex justify-content-around flax-wrap" id="bear-form"></div>
+  <div class="bear-input d-flex justify-content-around flex-wrap" id="bear-form"></div>
   <div class="bear-data d-flex justify-content-around flex-wrap" id="bear-river"></div>`;
 
   paintDom('#app', pageStr);

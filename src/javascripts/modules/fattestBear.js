@@ -21,7 +21,7 @@ const fattestBear = (bearArr) => {
   const tie = false;
   let ties = false;
   awardStr += `<div class="awards">
-  <button type="click" class="btn btn-primary" id="bearAwards">Show fattest bears</button>`;
+  <button type="click" class="btn btn-primary" id="bear-awards">Show fattest bears</button>`;
   if (bearArrCopy.length > 1) {
     bearArrCopy.sort(compareBearsDesc);
   }

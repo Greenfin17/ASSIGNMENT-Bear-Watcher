@@ -50,7 +50,7 @@ p.award-heading {
 }
 
 .card {
-  margin: 10px 0;
+  margin: 10px 5px;
 }
 
 .card-body {
@@ -80,4 +80,14 @@ button.full-stats {
 
 .modal-body {
   overflow: scroll;
+}
+
+@media (max-width: 595px) {
+  div.bear-form, div.awards {
+  flex-basis: 90%;
+  }
+
+  button#bear-awards {
+    margin: 10px 0 10px;
+  }
 }

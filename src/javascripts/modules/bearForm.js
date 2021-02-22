@@ -1,6 +1,6 @@
 import paintDom from './paintDom';
 import bearData from '../../assets/data/bearData';
-import fattestBear from './awards';
+import fattestBear from './fattestBear';
 
 const bearForm = () => {
   let bearString = `
