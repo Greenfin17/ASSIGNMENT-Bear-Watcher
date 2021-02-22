@@ -41,7 +41,7 @@ const listenNewBear = (e) => {
       river();
     }
   }
-  if (e.target.id === 'bearAwards') {
+  if (e.target.id === 'bear-awards') {
     console.warn('bearAwars');
     bearForm();
   }
