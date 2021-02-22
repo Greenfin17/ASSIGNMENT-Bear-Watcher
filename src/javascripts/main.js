@@ -14,8 +14,6 @@ const listenNewBear = (e) => {
     const bearUrlInput = document.getElementById('bearUrl');
     const bearName = bearNameInput.value;
     const bearUrl = bearUrlInput.value;
-    // console.warn(bearName);
-    // console.warn(bearUrl);
     if (!bearName) {
       bearNameInput.placeholder = 'Please enter a bear name';
     }
@@ -31,8 +29,6 @@ const listenNewBear = (e) => {
         fishingAttempts
       };
       bearData.push(newBear);
-      // console.warn(bearData);
-      // console.warn(time);
       bearNameInput.value = '';
       bearUrlInput.value = '';
       bearNameInput.placeholder = 'Enter bear name';
@@ -42,7 +38,6 @@ const listenNewBear = (e) => {
     }
   }
   if (e.target.id === 'bear-awards') {
-    console.warn('bearAwars');
     bearForm();
   }
 };
@@ -64,12 +59,6 @@ const listenFishing = (e) => {
   const modalXoutBearId = e.target.parentNode.parentNode.parentNode.parentNode.parentNode.id.slice(20);
   // bear id if missed or caught button clicked
   const fishingBearId = e.target.parentNode.parentNode.parentNode.id;
-  // const fishingResult = document.getElementById(`fishing-result_${bearId}`);
-  console.warn(e.target.id);
-  // console.warn(bearId);
-  console.warn(modalBearId);
-  console.warn(modalXoutBearId);
-  // console.warn(fishingResult.style);
   switch (e.target.id) {
     case `fish-button_${bearId}`:
       // fishingResult.classList.remove('collapse');
