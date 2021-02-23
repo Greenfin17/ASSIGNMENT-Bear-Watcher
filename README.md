@@ -1,10 +1,8 @@
 # Bear Watcher
 
 ## Overview
-- This site gives a user the opportunity to track the fishing activity of bears. 
-- The user can enter a bear's name and url of an image of the bear.
-- The user can click a button to record when a bear either catches or attempts to catch a fish.
-  
+- This site gives a user the opportunity to track the fishing activity of bears in realtime.
+
 ## Wireframes
 - https://www.figma.com/file/MAn8OvPyVcAhsuQiZKU7Dq/Bear-Watcher?node-id=0%3A1
  
