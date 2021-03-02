@@ -5,6 +5,9 @@
 
 ## Wireframes
 - https://www.figma.com/file/MAn8OvPyVcAhsuQiZKU7Dq/Bear-Watcher?node-id=0%3A1
+
+## Site link
+https://jm-bear-watcher.netlify.app/
  
 ## Project Board
 - https://github.com/Greenfin17/ASSIGNMENT-Bear-Watcher/projects/1
@@ -20,9 +23,6 @@
 - The user can click a button to view all the fishing attempts and catches if the data overflows a card.
 - The user can click a button to view the top three fish catchers.
   
-## Site link
-https://jm-bear-watcher.netlify.app/
-
 ## Screenshot
 ![BearWatcher](https://user-images.githubusercontent.com/51683901/108666355-88933100-749c-11eb-8030-3d68e09871a8.PNG)
  
