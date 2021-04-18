@@ -8,6 +8,7 @@
 
 ## Site link
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3dde3d4c-ba6a-4845-81a5-39efd51de406/deploy-status)](https://app.netlify.com/sites/jm-bear-watcher/deploys)
+
 https://jm-bear-watcher.netlify.app/
  
 ## Project Board
